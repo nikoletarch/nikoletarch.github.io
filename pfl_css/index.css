@@ -96,6 +96,12 @@ img#personalphoto
       size: A4;
   }
 
+  .work-info
+  {
+    page-break-inside: avoid;
+  }
+
+
   a[href].email:after
   {
     content: none !important;

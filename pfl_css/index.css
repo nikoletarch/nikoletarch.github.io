@@ -19,6 +19,7 @@ h5
 {
   font-size: 15px !important;
 }
+.bold { font-weight: bold; }
 
 #maindiv
 {
@@ -95,17 +96,49 @@ img#personalphoto
   {
       size: A4;
   }
-
+  
+  body
+  {
+     width: 1500px;
+  }
+  
+  hr
+  {
+     display: none !important;
+  }
+  
+  h3
+  {
+     margin-top: 20px;
+  }
+  
   .work-info
   {
     page-break-inside: avoid;
   }
 
-
+  .col-md-3
+  {
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+  }
+  .col-md-9
+  {
+    display: inline-block;
+    width: 750px;
+    vertical-align: top;
+  }
+  
   a[href].email:after
   {
     content: none !important;
   }
+  
+  a[href]:after {
+    content: none;
+  }
+  span.link { display: none }
   
   h1, h2, h3, h4, h5, h6
   {
@@ -135,15 +168,15 @@ img#personalphoto
   #mainlogo
   {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     text-align: center;
   }
   
   img#logo
   {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   #mainpersonal
@@ -151,29 +184,26 @@ img#personalphoto
     float: left;
     margin-left: 40px;
     height: 240px;
-    width: 300px;
+    width: 400px;
+  }
+  
+  #mainpersonal h3
+  {
+    margin-left: 40px;
   }
   
   #mainpic
   {
     float: left;
-    margin-left: calc(100% - 200px);
-    height: 240px;
-    width: 180px;
+    margin-left: calc(100% - 220px);
+    height: 260px;
+    width: 200px;
     text-align: right;
   }
 
   #mainmenu
   {
     display: none;
-    width: 100%;
-    text-align: center;
-    position: inherit;
-  }
-  #mainmenu > h4
-  {
-    display: inline;
-    margin-right: 50px;
   }
 
   #mainbody
@@ -181,8 +211,11 @@ img#personalphoto
     width: 100%;
     max-width: 100%;
     margin-left: 0px;
-    padding-bottom: 00px;
+    padding-bottom: 0px;
   }
+  
+  
+  
 }
 
 @media only screen and (max-width: 1080px)

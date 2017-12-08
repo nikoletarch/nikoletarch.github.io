@@ -109,7 +109,7 @@ img#personalphoto
   
   h3
   {
-     margin-top: 20px;
+     margin-top: 16px;
   }
   
   .work-info
@@ -126,7 +126,7 @@ img#personalphoto
   .col-md-9
   {
     display: inline-block;
-    width: 750px;
+    width: 690px;
     vertical-align: top;
   }
   
@@ -154,7 +154,11 @@ img#personalphoto
   {
     display: none !important;
   }
-  
+  #mainhead
+  {
+    height: 220px;
+  }
+
   #maindiv
   {
     position: inherit;
@@ -183,7 +187,7 @@ img#personalphoto
   {
     float: left;
     margin-left: 40px;
-    height: 240px;
+    height: 200px;
     width: 400px;
   }
   
